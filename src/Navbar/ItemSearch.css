@@ -1,0 +1,8 @@
+.offcanvas.show:not(.hiding){
+    left: 65px;
+}
+
+input::placeholder{
+    padding-left: 30px;
+    font-weight: 400 !important;
+}

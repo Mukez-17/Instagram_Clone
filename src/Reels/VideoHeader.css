@@ -1,0 +1,58 @@
+.videoHeader{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+}
+
+.videoHeader_Button {
+    background-color: transparent;
+    border-color: transparent;
+    color: white;
+}
+
+.VideoSide{
+    position: absolute;
+    top: 0;
+    left: 90%;
+    color: white;
+    width: 10%;
+    margin-top: 105%;
+}
+
+.VideoSide span{
+    padding-left: 4px;
+    align-items: center;
+    font-size: 90%;
+}
+
+.menu-row:hover{
+    background-color: rgb(83, 85, 86);
+}
+
+.tooltip-inner{
+    background-color: rgba(38, 38, 38);
+}
+
+.MuiPaper-root {
+    background-color: rgba(38, 38, 38) !important;
+}
+
+.modal-content{
+    background-color: rgba(38, 38, 38);
+}
+
+.modal-header .btn-close{
+    position: absolute;
+    float: left;
+}
+
+textarea::placeholder{
+    color: black !important;
+}
+
+.form-check-input[type=checkbox]{
+    border-radius: 25px !important;
+}

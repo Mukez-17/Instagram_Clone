@@ -1,0 +1,83 @@
+.modal-content{
+    background-color: black;
+    width: 550px;
+}
+
+.react-multiple-carousel__arrow{
+    max-width: 20px !important;
+    max-height: 20px !important;
+    min-width: 20px !important;
+    min-height: 20px !important;
+    background-color: rgba(38, 38, 38);
+    top: 15px;
+    right: 30px;
+}
+
+.react-multiple-carousel__arrow::before{
+    font-size: 12px !important;
+}
+
+.tooltip-inner{
+    background-color: rgba(38, 38, 38);
+}
+
+.form-control::placeholder{
+    position: relative;
+    right: 33px;
+    color: rgba(158, 158, 158);
+}
+
+.form-control:focus{
+    box-shadow: 0 0 0 0 black !important;
+}
+
+.css-1i0e6f3-MuiModal-root-MuiPopover-root .modal-content{
+    background-color: rgba(38, 38, 38);
+}
+
+.css-3bmhjh-MuiPaper-root-MuiPopover-paper {
+    background-color: rgba(38, 38, 38) !important;
+    border-radius: 5% !important;
+}
+
+input::placeholder{
+    position: relative;
+    right: 30px;
+}
+
+.form-check-input[type=checkbox]{
+    position: relative;
+    top: -40px;
+    float: right;
+    width: 25px;
+    height: 25px;
+    background-color: transparent;
+    border-radius: 25px;
+    border-color: rgba(158, 158, 158);
+}
+
+.menu-row:hover{
+    background-color: rgb(83, 85, 86);
+}
+
+.menu-row{
+    border-bottom: 1px Solid rgba(54, 54, 54);
+    text-align: center;
+}
+
+input[placeholder="Add a comment..."]{
+    padding-left: 40px ;
+}
+
+.userid{
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 70px;
+    font-size: 12px;
+    margin-left: 20px;
+}
+
+.Modal-title[key=3]{
+    margin-right: 390px !important;
+}

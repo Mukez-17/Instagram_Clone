@@ -1,0 +1,13 @@
+.VideoCard{
+    position: relative;
+    border: 1px solid black;
+    width: 100%;
+    height: 100%;
+    scroll-snap-align: start;
+}
+
+.VideoCard_Videos{
+    object-fit: fill;
+    width: 100%;
+    height: 100%;
+}
